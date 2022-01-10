@@ -1,0 +1,49 @@
+@keyframes imageslide {
+    0% {
+      transform: translateY(0.1vh);
+    }
+  
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  @keyframes paraslide {
+    0% {
+      transform: translateX(200vh);
+    }
+  
+    100% {
+      transform: translateX(0.5vh);
+    }
+  }
+  
+  @keyframes quoteslide {
+    0% {
+      transform: translateY(505vh);
+    }
+  
+    100% {
+      transform: translateY(100vh);
+    }
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate1 {
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+
+  

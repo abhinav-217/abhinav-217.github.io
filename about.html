@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A better Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    
+  </head>
+
+  <body>
+    <nav class="navigation max-width-1-navbar m-auto">
+      <div class="left">
+        <!-- home and about here -->
+        <ul>
+          <a href="index.html">
+            <li class="items">Home</li>
+          </a>
+          <a href="about.html">
+            <li class="items">About</li>
+          </a>
+        </ul>
+      </div>
+      <div class="center"><img src="img/logo.png" alt="" /></div>
+      <div class="right">
+        <!-- contact and work here -->
+        <div class="right">
+          <ul>
+            <a href="work.html">
+              <li class="items">work</li>
+            </a>
+            <a href="contact.html">
+              <li class="items">contact</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="about-button max-width-2-content m-auto">
+      <button class="buttons" id="skills">Skills</button>
+      <button class="buttons" id="education">Education</button>
+      <a href="Docuements/abhinav-biodata.docx">
+        <button class="buttons" id="Download">Download CV</button>
+      </a>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <div class="aboutskills" id="aboutskill">
+      <div class="about-skills-left">
+        <div class="html-head">
+          <h3>HTML</h3>
+        </div>
+        <div class="html">
+          <!-- this is html -->
+          <div class="progress-html">
+            <!-- this is progress -->
+            <p>90%</p>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <br />
+
+        <div class="javascript-head">
+          <h3>Javacript</h3>
+        </div>
+        <div class="javascript">
+          <div class="progress-javascript"><p>20%</p></div>
+        </div>
+        <br />
+        <hr />
+        <br />
+
+        <div class="Cpp-head">
+          <h3>C++</h3>
+        </div>
+        <div class="Cpp">
+          <div class="progress-Cpp"><p>70%</p></div>
+        </div>
+      </div>
+      <div class="about-skills-right">
+        <div class="css-head">
+          <h3>CSS</h3>
+        </div>
+        <div class="css">
+          <div class="progress-css"><p>90%</p></div>
+        </div>
+        <br />
+        <hr />
+        <br />
+
+        <div class="python-head">
+          <h3>Python</h3>
+        </div>
+        <div class="python">
+          <div class="progress-python"><p>10%</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="abouteducation" id="abouteducation">
+      <div class="schoolone" id="schoolone">
+        <h3>Class 10th</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quos quod illum soluta nulla consequuntur assumenda architecto, minus qui odio ut tenetur? Totam culpa earum labore, illum saepe ut?</p>
+      </div>
+      <div class="schooltwo" id="schooltwo"><h3>Class 12th</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quos quod illum soluta nulla consequuntur assumenda architecto, minus qui odio ut tenetur? Totam culpa earum labore, illum saepe ut?</p></div>
+      <div class="college" id="college"><h3>B.Tech</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit quos quod illum soluta nulla consequuntur assumenda architecto, minus qui odio ut tenetur? Totam culpa earum labore, illum saepe ut?</p></div>
+    </div>
+
+    <!-- <div class="footer max-width-3-footer">&copy; Abhinav Saxena</div> -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      let skills = document.getElementById("skills");
+      let aboutskill = document.getElementById("aboutskill");
+      let education = document.getElementById("education");
+      let abouteducation = document.getElementById("abouteducation");
+      skills.addEventListener("click", function hide() {
+        if (aboutskill.style.display != "none" || abouteducation.style.display != "none") {
+          aboutskill.style.display = "none";
+          abouteducation.style.display = "none";
+        } else {
+          aboutskill.style.display = "flex";
+          
+        }
+      });
+      education.addEventListener("click", function view() {
+        if (abouteducation.style.display != "none" || aboutskill.style.display != "none" ) {
+          abouteducation.style.display = "none";
+          aboutskill.style.display = "none";
+        } else {
+          abouteducation.style.display = "flex";
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  overflow: hidden;
+}
+.navigation {
+  height: 60px;
+  background-color: rgb(255 251 127 / 22%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left a {
+  text-decoration: none;
+  /* margin: 0 29px ; */
+  color: black;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}
+.left a li {
+  padding: 3px 22px;
+}
+.left a:hover {
+  /* background-color: white;
+  border-radius: 20px;
+  font-size: 20px; */
+  color: purple;
+  background-color: whitesmoke;
+  
+}
+.left li {
+  list-style: none;
+}
+.right ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right a {
+  text-decoration: none;
+  /* margin: 0 29px ; */
+  color: black;
+  font-family: "Lobster", cursive;
+  font-size: 18px;
+}
+.right a li {
+  padding: 3px 22px;
+}
+.right a:hover {
+  /* background-color: white;
+  border-radius: 20px;
+  font-size: 20px; */
+  color: purple;
+  background-color: whitesmoke;
+}
+.right li {
+  list-style: none;
+}
+.center img {
+  height: 10vh;
+}
+.content {
+  height: 100px;
+  background-color: bisque;
+  height: 80vh;
+  display: flex;
+}
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content-right img {
+  height: 250px;
+  width: 250px;
+  border: 3px solid grey;
+  border-radius: 50%;
+  margin-right: 10vh;
+  /* animation: imageslide 4s reverse 1; */
+}
+
+.content-left {
+  margin-left: 8vh;
+  flex-direction: column;
+  display: flex;
+  padding-left:10vh;
+  padding-right:10vh;
+  padding-top: 15vh;
+  /* border: 5px solid rebeccapurple; */
+  margin-right: 3vh;
+  margin-top: 3vh;
+  
+  margin-bottom: 3vh;
+  border-radius: 20%;
+  /* animation: paraslide 3s ease 0s 1 normal forwards */
+  
+}
+.content-left p {
+  margin-top: 5vh;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3rem;
+}
+.content-left h1
+{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.bottom
+{
+    /* background-color: aquamarine; */
+    text-shadow: #FC0 1px 0 10px;
+    width: 80vh;
+    position: absolute;
+    bottom: 20vh;
+    left: 30%;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    /* animation: imageslide 8s reverse 1; */
+}
+.footer
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3px;
+  background-color: rgb(100, 95, 90);
+  margin-left:5vw ;
+  color: white;
+  height: 9vh;
+}
+#btn1
+{
+  height: 10vh;
+  width: 10vw;
+  position: absolute;
+  margin-left: 15vw;
+  bottom: 25%;
+  border-radius: 50%;
+  background-color: rgb(239 205 163);
+  /* border: 2px solid rgb(233, 131, 7); */
+}
+#btn1:hover
+{
+  background-color: rgb(230, 146, 230);
+  color: white;
+}

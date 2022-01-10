@@ -1,0 +1,105 @@
+@media screen and (min-device-width: 320px) and (max-device-width: 450px) {
+  body {
+    overflow: hidden;
+  }
+
+  .left ul {
+    display: block;
+  }
+  .right ul {
+    display: block;
+  }
+  .content-right {
+    display: none;
+  }
+  .content-left {
+    margin-left: 8vh;
+    flex-direction: column;
+    display: flex;
+    padding-left: 0vh;
+    padding-right: 0vh;
+    padding-top: 0vh;
+
+    margin-right: 0vh;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    border-radius: 20%;
+  }
+  .content-left p {
+    padding-right: 18vw;
+    font-size: 1rem;
+  }
+  .bottom {
+    /* display: none; */
+    font-size: 14px;
+    width: 47vh;
+    left: 10%;
+  }
+  .content-left h1 {
+    font-family: "Abril Fatface", cursive;
+    font-size: 23px;
+  }
+  .first {
+    width: 27vh;
+  }
+  .second {
+    width: 27vh;
+  }
+  .email {
+    width: 27vh;
+  }
+  .text {
+    width: 27vh;
+  }
+ 
+  .form-content {
+    flex-direction: column;
+  }
+  .aboutskills{
+      flex-direction: column;
+  }
+  .Cpp-head{
+      display: none;
+  }
+  .Cpp{
+      display: none;
+  }
+  .css-head{
+    margin-top: 75px;
+  }
+   .schoolone {
+    
+    width: 40vh;
+    height: 36vh;
+    
+    
+}
+  .schooltwo {
+    
+    width: 40vh;
+    margin-top: 10px;
+    height: 36vh;
+    
+}
+  .college {
+    
+    width: 40vh;
+    margin-top: 10px;
+    height: 36vh;
+    
+}
+.abouteducation{
+    flex-direction: column;
+}
+}
+@media screen and (min-device-height: 569px) and (max-device-height: 896px) {
+  .bottom {
+    /* display: none; */
+    font-size: 14px;
+    width: 37vh;
+    left: 10%;
+  }
+  .form-content-right{
+      display: none;
+  }
+}

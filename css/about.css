@@ -1,0 +1,241 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.aboutskills
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* visibility: hidden; */
+    font-family: 'Courier New', Courier, monospace;
+    display: none;
+    
+}
+.about-button
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    height: 25vh;
+    width: 100%;
+}
+.about-button a
+{
+    height: auto;
+}
+.about-skills-right
+{
+    margin-top: -84px;
+}
+.buttons
+{
+    height: 10vh;
+    width: 20vh;
+    /* margin-bottom: 228px; */
+    background-color: rgb(58, 61, 60);
+    color: white;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    /* margin-top: 178px; */
+    font-family: "Lobster", cursive;
+}
+.buttons:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.html
+{
+    background-color: red;
+    width: 35vh;
+    height: 3vh;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-left: -1px;
+    color: white;
+}
+.progress-html
+{
+    background-color: brown;
+    width: 30vh;
+    height: 3vh;
+    border-radius:10px;
+
+}
+.progress-html p
+{
+    margin-left: 10px;
+
+}
+.progress-Cpp p
+{
+    margin-left: 10px;
+
+}
+.progress-python p
+{
+    margin-left: 10px;
+
+}
+
+
+
+.javascript
+{
+    background-color: red;
+    width: 35vh;
+    height: 3vh;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-left: -1px;
+    color: white;
+}
+.progress-javascript
+{
+    background-color: brown;
+    width: 8vh;
+    height: 3vh;
+    border-radius:10px;
+
+}
+.progress-javascript p
+{
+    margin-left: 10px;
+
+}
+.css
+{
+    background-color: red;
+    width: 35vh;
+    height: 3vh;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-left: -1px;
+    color: white;
+}
+.progress-css
+{
+    background-color: brown;
+    width: 28vh;
+    height: 3vh;
+    border-radius:10px;
+
+}
+.progress-css p
+{
+    margin-left: 10px;
+
+}
+.python
+{
+    background-color: red;
+    width: 35vh;
+    height: 3vh;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-left: -1px;
+    color: white;
+}
+.progress-python
+{
+    background-color: brown;
+    width: 5vh;
+    height: 3vh;
+    border-radius:10px;
+
+}
+.Cpp
+{
+    background-color: red;
+    width: 35vh;
+    height: 3vh;
+    border-radius:10px;
+    margin-top: 5px;
+    margin-left: -1px;
+    color: white;
+}
+.progress-Cpp
+{
+    background-color: brown;
+    width: 15vh;
+    height: 3vh;
+    border-radius:10px;
+
+}
+
+.abouteducation
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+}
+.schoolone
+{
+    background-color: cyan;
+    height: 30vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+.schoolone h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Lobster", cursive;
+}
+.schoolone p
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin:5px;
+    font-size:1.15rem;
+}
+.schooltwo
+{
+    background-color: rgb(0 255 43 / 32%);
+    height: 30vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+.schooltwo h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Lobster", cursive;
+}
+.schooltwo p
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin:5px;
+    font-size:1.15rem;
+}
+.college
+{
+    background-color: rgb(255 0 247 / 19%);
+    height: 30vh;
+    width: 25vw;
+    border-radius: 20px;
+}
+.college h3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-family: "Lobster", cursive;
+}
+.college p
+{
+   
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin:5px;
+    font-size:1.15rem;
+}

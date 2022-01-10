@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.form-content {
+    height: 100px;
+    background-color: rgb(252, 210, 168);
+    height: 80vh;
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    /* opacity: 0.25; */
+   
+}
+.form-content-left
+{
+    /* background-color: rgb(197, 30, 30); */
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    margin: 25px;
+    /* padding: 25px; */
+}
+.first
+{
+    margin-top: 20px;
+    width: 80vh;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.second
+{
+margin-top: 20px;
+width: 80vh;
+height: 30px;
+border-radius: 10px;
+padding-left: 10px;
+}
+.email
+{
+margin-top: 20px;
+width: 80vh;
+height: 30px;
+border-radius: 10px;
+padding-left: 10px;
+}
+.text
+{
+margin-top: 20px;
+width: 80vh;
+height: 30vh;
+border-radius: 10px;
+padding-left: 10px;
+padding-top: 10px;
+}
+#btn-sub
+{
+margin-top: 20px;
+width: 10vh;
+height: 30px;
+border-radius: 10px;
+background-color: beige;
+
+/* padding-left: 10px; */
+}
+#btn-sub:hover
+{
+    background-color: purple;
+    transition: all 0.4s ease-in-out;
+    color: white;
+    cursor: pointer;
+}
+.form-content-right
+{
+    background-color: rgb(237, 241, 168);
+    width: 50vh;
+    height: 50vh;
+    border-radius: 50%;
+    margin-right: 13vh;
+    margin-top: 14vh;
+    /* padding: 25px; */
+    border:4px solid rgb(183 152 121);
+}
+.form-content-right:hover
+{
+    cursor: default;
+}
+.linkedin ion-icon{
+    height: 10vh;
+    width: 10vw;
+    padding-top: 10vh;
+    color: rgb(9 175 255);
+}
+.linkedin ion-icon:hover{
+    cursor: pointer;
+    height: 11vh;
+}
+.github ion-icon:hover{
+    cursor: pointer;
+    height: 11vh;
+}
+.insta ion-icon:hover{
+    cursor: pointer;
+    height: 11vh;
+
+}
+.insta ion-icon{
+    height: 10vh;
+    width: 10vw;
+    padding-top: 10vh;
+    color: rgb(255, 0, 0);
+}
+.github ion-icon{
+    height: 10vh;
+    width: 10vw;
+    padding-top: 10vh;
+    color: rgb(65, 58, 58);
+}
+.button-submit
+{
+    background-color: aqua;
+}

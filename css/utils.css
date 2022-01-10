@@ -1,0 +1,13 @@
+.max-width-1-navbar
+{
+    max-width: 100%;
+}
+.max-width-2-content{
+    max-width: 90vw;
+}
+.max-width-3-footer{
+    max-width: 90vw;
+}
+.m-auto{
+    margin: auto;
+}
